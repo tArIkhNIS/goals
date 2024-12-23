@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono";
+  font-size: 16px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: 1s ease all;
+}
+header {
+  padding: 25px;
+  background-image: url(./pre-tendentsiya-gradientnogo-dizajna-kak-ona-vyglyadit-i-kak-ee-ispolzovat-930x465.jpg);
+  background-size: cover;
+}
+.banner-wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+.banner-text {
+  text-align: center;
+  padding: 200px 0;
+}
+p {
+  color: #7d7987;
+}
+button {
+  border: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+}
+.header-wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+.header-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+header img {
+  width: 160px;
+}
+
+header nav a {
+  margin-left: 40px;
+  /* color: #1f1534; */
+  color: white;
+  font-weight: 700;
+  opacity: 0.5;
+  text-decoration: none;
+}
+header nav a:first-child {
+  margin-left: 0;
+}
+.primary {
+  color: white;
+  background-color: #458ff6;
+}
+.mobile-logo {
+  display: none;
+}
+.active-link {
+  color: black;
+  opacity: 1;
+}
+.footer {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(103, 195, 243, 1)),
+    color-stop(100%, rgba(90, 152, 250, 1)),
+    to(rgba(0, 212, 255, 1))
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(103, 195, 243, 1) 0%,
+    rgba(90, 152, 250, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(103, 195, 243, 1) 0%,
+    rgba(90, 152, 250, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white !important;
+}
+
+.footer-wrapper {
+  width: 75%;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+.footer-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.description {
+  width: 35%;
+}
+.description p {
+  color: white;
+}
+.description img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.links {
+  width: 10%;
+}
+.links ul {
+  line-height: 1.5;
+}
+.links ul li {
+  margin-bottom: 15px;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+}
+.hidden {
+  display: none;
+}
+.goals {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+}
+.theme_cont {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+.topic_goal {
+  display: flex;
+  flex-direction: row;
+}
+
+.theme-top {
+  width: 50%;
+  height: 220px;
+  border-radius: 25px 0px 0px 0px;
+  border-bottom: 2px solid black;
+  border-right: 1px solid black;
+}
+.goal-top {
+  width: 50%;
+  height: 220px;
+  border-radius: 0px 25px 0px 0px;
+  border-bottom: 2px solid black;
+  border-left: 1px solid black;
+}
+.theme {
+  width: 50%;
+  border-bottom: 2px solid black;
+  border-right: 1px solid black;
+}
+.goal {
+  width: 50%;
+  border-bottom: 2px solid black;
+  border-left: 1px solid black;
+}
+.theme-bottom {
+  width: 50%;
+  border-radius: 0px 0px 0px 22px;
+  border-bottom: 2px solid black;
+  border-right: 1px solid black;
+}
+.goal-bottom {
+  width: 50%;
+  border-radius: 0pc 0pc 22px 0px;
+  border-bottom: 2px solid black;
+  border-left: 1px solid black;
+}
+.th {
+  padding: 15px;
+}
+.grade_txt {
+  color: #6d6c6f;
+  font-weight: 700;
+}
+@media (max-width: 720px) {
+  .footer-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .description {
+    width: 100%;
+  }
+  .links {
+    display: none;
+  }
+  header {
+    background-color: black;
+  }
+  nav {
+    display: none;
+  }
+  .banner-wrapper {
+    width: 100%;
+  }
+  .inner {
+    padding: 35px 0;
+  }
+  .header-bars {
+    display: block;
+    color: white;
+  }
+  .mobile-logo {
+    display: inline-block;
+  }
+  .web-logo {
+    display: none;
+  }
+}
